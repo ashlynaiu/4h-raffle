@@ -1,0 +1,91 @@
+////////////////////
+/////Variables/////
+//////////////////
+$background-color: #16325C
+$insetColor: #16325C
+$textcolor: #fff
+
+/////////////////
+/////Resets/////
+///////////////
+*
+  margin: 0
+  padding: 0
+  border: none
+  border-radius: 0
+
+html, body
+  height: 100%
+  width: 100%
+  font-family: 'Open Sans', sans-serif
+  background: $background-color
+  background: -webkit-linear-gradient(#357352, #4BC076)
+  background: -moz-linear-gradient(#357352, #4BC076)
+  background: -o-linear-gradient(#357352, #4BC076)
+  background: linear-gradient(#357352, #4BC076)
+  color: $textcolor
+
+input, select, textarea, button, a
+  outline: none
+  font-family: inherit
+  box-sizing: border-box
+
+h1
+  font-size: 50px
+  line-height: 52px
+  font-weight: 300
+  margin-bottom: 20px
+  -webkit-font-smoothing: antialiased
+
+h2
+  font-size: 60px
+  line-height: 45px
+  font-weight: 500
+  margin-bottom: 20px
+  -webkit-font-smoothing: antialiased
+
+h3
+  font-size: 22px
+  line-height: 28px
+  font-weight: 400
+  margin-bottom: 20px
+  -webkit-font-smoothing: antialiased
+
+a
+  color: purple
+  img
+    outline-color: none
+  &:hover
+    text-decoration: none
+
+p
+  font-size: 16px
+  line-height: 24px
+  font-weight: 300
+
+/////////////////////
+/////App Styles/////
+///////////////////
+#root
+  height: 100%
+
+.App
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: center
+  height: 100%
+
+  h2
+    margin-top: 50px
+
+.raffleButton
+  padding: 30px 90px
+  border-radius: 8px
+  background-color: #fff
+  color: #357352
+  opacity: .8
+  font-size: 30px
+  &:hover
+    opacity: 1
+
